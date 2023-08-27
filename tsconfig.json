@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@Noble/*": ["src/*"],
+      "@Noble/Assets/*": ["assets/*"]
+    },
+    "noImplicitAny": true
+  },
+  "extends": "expo/tsconfig.base"
+}
